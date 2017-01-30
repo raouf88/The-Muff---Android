@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.raouf.android.muff.Fragments.SearchFragment">
+
+
+
+    <item
+        android:id="@+id/menu_search_searchView"
+        android:title="Search Movies"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/menu_search_progressBar"
+        android:title="Searching..."
+        app:showAsAction="always"
+        app:actionLayout="@layout/view_progressbar"
+        />
+</menu>
